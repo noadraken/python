@@ -1,5 +1,7 @@
-import pandas as pd
+import pandas as pd  
 
-data = pd.read_csv("Malaria Compilation October.csv")
+data = [100, 102, 104]
 
-print(data.to_string)
+series = pd.Series(data)
+
+print(series)
