@@ -1,7 +1,7 @@
 import pandas as pd  
 
-data = [100, 102, 104]
+data = {"Name": ["Spongebob", "Patrick", "Squidward"],
+        "Age": [30,35,40]}
 
-series = pd.Series(data, index= ["a", "b", "c"])
-
-print(series)
+df = pd.DataFrame(data, index = ["Employee 1", "Employee 2", "Employee 3"])
+print(df.loc["Patrick"])
