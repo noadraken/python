@@ -5,25 +5,26 @@ hourly_rate = 85000
 
 total_payment = hourly_rate * convert_into_hours
 print("The total payment is ", total_payment, " per day")
+print("\n")
 
-income_per_month = total_payment * 30
-
-
-laptop_price = 1400000
-
-months_required = laptop_price / income_per_month
-
-if laptop_price%income_per_month>0:
-    months_required =+1
+laptop_price = int(input("Type the Laptop price: "))
+monthly_saving = int(input("Type your monthly saving: "))
+months_required = laptop_price//monthly_saving
+if laptop_price%monthly_saving >0:
+    months_required +=1
 else:
     months_required
     
-print("If he collect his daily income, his monthly income will be ", income_per_month, ". He needs to collect ", months_required, "months worth of income to be able to afford a new laptop.")
+print("I need to save ", months_required, " months to buy a new laptop")
+    
 
-print("\n\n")
+print("\n")
 
-
-
+travel_distance = int(input("Type how many kilometres the trip is: "))
+fuel_consumption = travel_distance / 40
+fuel_price  = int(fuel_consumption * 13000)
+print("The total fuel price is ", fuel_price , ".")
+print("\n")
 
 
 
@@ -35,6 +36,9 @@ tax = 0.05
 salary = base_salary + allowance - ((base_salary + allowance)*(bpjs+tax))
 print("Salary is : ", salary)
 
-print("\n\n")
+print("\n")
+
+length = 4
+width = 3
 
 
