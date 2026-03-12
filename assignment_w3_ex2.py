@@ -33,3 +33,25 @@ print("Distance in centimetres: ", centimetre)
 print("Distance in miles: ", miles)
 print("\n")
 
+print("No.4")
+first_number = int(input("What's the first number?:"))
+second_number = int(input("What's the second number?: "))
+third_number = int(input("What's the third number?: "))
+if first_number>=second_number and first_number >=third_number:
+    print(first_number, " is the largest")
+elif second_number>=first_number and second_number>= third_number:
+    print(second_number, " is the largest")
+else:
+    print(third_number, " is the largest")
+print("\n")
+
+print("No.5")
+length = int(input("Length: "))
+width = int(input("Width: "))
+area = length * width
+perimeter = 2*(length+width)
+print("Area is " , area)
+print("Perimeter is ", perimeter)
+if area > 100:
+    print("Large Area")
+print("\n")
