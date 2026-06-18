@@ -1,0 +1,6 @@
+{
+  "name": "Academic Data & GPA Manager",
+  "description": "An interactive learning workbook and Excel processor using Python Pandas for managing student profiles, subjects, grades, SKS credits, and GPAs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
