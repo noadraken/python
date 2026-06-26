@@ -22,6 +22,7 @@ def analyze_quiz_results():
     highest = df['Score'].max()
     lowest = df['Score'].min()
     
+    
     # Group the scores
     bins = [-1, 50, 70, 80, 90, 101]
     labels = ['0 - 50', '50 - 70', '70 - 80', '80 - 90', '> 90']

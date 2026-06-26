@@ -1,0 +1,6 @@
+{
+  "name": "School Management System",
+  "description": "A comprehensive school management system featuring role-based portals for Admins, Teachers, and Students, powered by a Python database processing engine with Pandas grade analytics and SQLAlchemy persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
